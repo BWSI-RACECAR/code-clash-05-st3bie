@@ -28,6 +28,7 @@ class Solution:
     def hi_finder(self,hi_string):
         
         counter = 0
+        hi_string = hi_string.lower()
 
         while ("hi" in hi_string):
             hi_string = hi_string.replace("hi", "")
