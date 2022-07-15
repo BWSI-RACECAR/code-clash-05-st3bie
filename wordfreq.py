@@ -31,7 +31,7 @@ class Solution:
         hi_string = hi_string.lower()
 
         while ("hi" in hi_string):
-            index = hi_string.index()
+            index = hi_string.index("hi")
             hi_string = hi_string[0 : index - 1] + hi_string[index + 1:]
             counter += 1
         
